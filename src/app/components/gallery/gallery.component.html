@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <ng-container *ngIf="isDisplayed">
+        <fa-icon *ngIf="icon" [icon]="icon" style="font-size:100px;"></fa-icon>
+    </ng-container>
+    <button (click)="getRandomIcon(fasArray)" class="change-btn" type="button">Change icon</button>
+</div>
+
+
